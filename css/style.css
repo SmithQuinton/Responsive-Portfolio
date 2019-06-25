@@ -220,22 +220,31 @@ body {
   }
   
   @media screen and (max-width:980px) {
-      body {
-          width: 100%;
-          background: url("vintage-concrete.png")
+    body {
+        width: 100%;
+    }  
+    
+    #main-container {
+          background-color: greenyellow;
       }
   }
 
   @media screen and (max-width:768px) {
-      body {
-          width: 50%;
-          background: url("united-squares-negative.png")
+    body {
+        width: 50%;
+    }  
+    
+    #main-container {
+          background-color: blueviolet;
       }
   }
 
   @media screen and (max-width:640px) {
-      body {
-          width: 25%;
-          background: url("cloudy-day.png")
+    body {
+        width: 25%;
+    }
+    
+    #main-container {
+          background-color: orange;
       }
   }
